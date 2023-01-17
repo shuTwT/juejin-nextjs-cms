@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "columns",
+  "info": {
+    "singularName": "column",
+    "pluralName": "columns",
+    "displayName": "Column",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "posts": {
+      "type": "json"
+    },
+    "cover": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "content": {
+      "type": "text"
+    },
+    "author": {
+      "type": "string"
+    }
+  }
+}
